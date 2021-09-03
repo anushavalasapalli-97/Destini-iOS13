@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnBackClicked(_ sender: UIButton) {
-        storyBrain.questionNumber = 0
+        storyBrain.storyNumber = 0
         self.updateUI()
         
     }
